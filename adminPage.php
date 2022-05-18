@@ -58,13 +58,7 @@
         <br>
         <br>
         <br>
-        <?php
-            if(isset($_SESSION["username"])){
-                echo '<a href="sessionLogout.php></a>';
-            }else{
-                echo "";
-            }
-        ?>
+        <a href="sessionLogout.php"><button>Logout</button></a>
         <br><br><br>
         <a href="print.php"><button>Print</button></a>
         <div class="fixed">
